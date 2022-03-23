@@ -1,0 +1,90 @@
+
+.formData{
+  margin-left: 5vh;
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+  padding: 1rem;
+}
+.NewCostumerForm {
+  
+  width: 75vh;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0px 0px 6px -2px #261A91;
+  border-radius: 5px;
+  /* background-color: white; */
+  align-content: center;
+  position: relative;
+  top: 5vh;
+  z-index: 1;
+  background-color: #FFFFFF;
+  
+}
+
+.label {
+  background-color: #FFFFFF;
+}
+
+.submitButton {
+  
+  color: white;
+  background-color: #261A91;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+  }
+  
+  .submitButton:hover {
+    background-color: #EAEBF7;
+    color: black;
+  }
+
+
+.formInput {
+  background-color: white;
+  width: 60vh;
+  padding: 10px;
+  border: 1px solid #261A91;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  
+}
+
+.formError {
+  color: red;
+  font-size: x-small;
+}
+
+
+
+.selectInput {
+  background-color: white;
+  width: 30vh;
+  padding: 10px;
+  border: 1px solid #261A91;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .formInput {
+    width: 80%;
+  }
+  .selectInput {
+    width: 40%;
+  }
+
+  .NewCostumerForm {
+    width: 100%;
+  }
+}
+  

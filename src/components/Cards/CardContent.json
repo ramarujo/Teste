@@ -1,0 +1,20 @@
+{
+  "Student": {
+    "apr":  18.9,
+    "balanceTransferOfferDuration": 0,
+    "creditAvailable": 1200,
+    "purchaseOfferDuration": 6
+  }, 
+  "Anywhere": {
+    "apr":  33.9,
+    "balanceTransferOfferDuration": 0,
+    "creditAvailable": 300,
+    "purchaseOfferDuration": 0
+  }, 
+  "Liquid": {
+    "apr":  33.9,
+    "balanceTransferOfferDuration": 12,
+    "creditAvailable": 3000,
+    "purchaseOfferDuration": 6
+  }
+}
